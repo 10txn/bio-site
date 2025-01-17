@@ -107,6 +107,7 @@ body {
   gap: 20px;
   left: 33.8%;
   top: 45.4%;
+  container-type: inline-size;
 }
 
 .github {
@@ -127,6 +128,7 @@ body {
   gap: 20px;
   left: 50.4%;
   top: 45.4%;
+  container-type: inline-size;
 }
 
 .discord {
@@ -147,10 +149,11 @@ body {
   gap: 20px;
   left: 42.4%;
   top: 62.4%;
+  container-type: inline-size;
 }
 
 .tiktok:hover, .github:hover, .discord:hover {
-  transform: scale(108%);
+  transform: scale(104%);
 }
 
 #githubhdr {
@@ -229,11 +232,214 @@ body {
   text-decoration: underline;
 }
 
-@media screen (
-  max-device-width: 1200px; 
-){
-  .discord {
+@media (min-width: 1988px) {
+  .tiktok {
+    position: absolute;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 15px;
+    width: 100%; /* Make these boxes responsive */
+    max-width: 300px; /* Limit their max-width */
+    height: 140px;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    left: 34.8%;
+    top: 45.4%;
+    container-type: inline-size;
+  }
+
+  .credits {
+    position: absolute;
+    font-size: 14px;
+    font-weight: lighter;
+    top: 78%;
+    left: 45.9%;
+    color: #fff;
   }
 }
 
+@media (min-width: 2106px) {
+  .tiktok {
+    position: absolute;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 15px;
+    width: 100%; /* Make these boxes responsive */
+    max-width: 300px; /* Limit their max-width */
+    height: 140px;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    left: 35.5%;
+    top: 45.4%;
+    container-type: inline-size;
+  }
+
+  .credits {
+    position: absolute;
+    font-size: 14px;
+    font-weight: lighter;
+    top: 78%;
+    left: 45.9%;
+    color: #fff;
+  }
+}
+
+@media (min-width: 3440px) {
+  .tiktok {
+    position: absolute;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 15px;
+    width: 100%; /* Make these boxes responsive */
+    max-width: 300px; /* Limit their max-width */
+    height: 140px;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    left: 41.1%;
+    top: 45.4%;
+    container-type: inline-size;
+  }
+
+  .github {
+    position: absolute;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 15px;
+    width: 100%; /* Make these boxes responsive */
+    max-width: 300px; /* Limit their max-width */
+    height: 140px;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    left: 50.2%;
+    top: 45.4%;
+    container-type: inline-size;
+  }
+  
+  .discord {
+    position: absolute;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 15px;
+    width: 100%; /* Make these boxes responsive */
+    max-width: 300px; /* Limit their max-width */
+    height: 140px;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    left: 45.6%;
+    top: 57.4%;
+    container-type: inline-size;
+  }
+
+  .credits {
+    position: absolute;
+    font-size: 14px;
+    font-weight: lighter;
+    top: 69.34%;
+    left: 47.2%;
+    color: #fff;
+  }
+}
+
+@media (min-width: 1536px) {
+  .tiktok {
+    position: absolute;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 15px;
+    width: 100%; /* Make these boxes responsive */
+    max-width: 300px; /* Limit their max-width */
+    height: 140px;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    left: 30.1%;
+    top: 45.4%;
+    container-type: inline-size;
+  }
+
+  .github {
+    position: absolute;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 15px;
+    width: 100%; /* Make these boxes responsive */
+    max-width: 300px; /* Limit their max-width */
+    height: 140px;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    left: 50.2%;
+    top: 45.4%;
+    container-type: inline-size;
+  }
+  
+  .discord {
+    position: absolute;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 15px;
+    width: 100%; /* Make these boxes responsive */
+    max-width: 300px; /* Limit their max-width */
+    height: 140px;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    left: 40.6%;
+    top: 63.4%;
+    container-type: inline-size;
+  }
+
+  .credits {
+    position: absolute;
+    font-size: 14px;
+    font-weight: lighter;
+    top: 80.34%;
+    left: 44.2%;
+    color: #fff;
+  }
+}
